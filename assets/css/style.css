@@ -1,0 +1,75 @@
+.container {
+    /* margin: 50px; */
+    /* padding-top: 25px; */
+}
+
+#text {
+    font-size: 25px;
+    color: black;
+}
+/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url('https://storage.needpix.com/rsynced_images/blue-and-white-flower-background.jpg');
+	}
+	#section0 h1{
+		top: 50%;
+		transform: translateY(-50%);
+		position: relative;
+	}
+	#section2{
+		background-image: url('https://www.securityroundtable.org/wp-content/uploads/2018/07/AdobeStock_103287945.jpeg');
+		padding: 6% 0 0 0;
+	}
+	#section3{
+		background-image: url('https://www.securityroundtable.org/wp-content/uploads/2018/07/AdobeStock_103287945.jpeg');
+		padding: 6% 0 0 0;
+	}
+	#section3 h1{
+		color: #000;
+	}
+
+
+	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url('https://iixfoundation.org/wp-content/uploads/2018/09/clean-white-polygon-backgrounds-8.jpg');
+		padding: 0% 0 0 0;
+	}
+	#slide2{
+		background-image: url('https://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-1.jpg');
+		padding: 6% 0 0 0;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}

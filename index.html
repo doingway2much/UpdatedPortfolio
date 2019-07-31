@@ -12,74 +12,12 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/examples.css" />
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<style>
 
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-		padding:0;
-	}
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-
-	/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	.section{
-		background-size: cover;
-	}
-	.slide{
-		background-size: cover;
-	}
-
-	/* Defining each section background and styles
-	* --------------------------------------- */
-	#section0{
-		background-image: url('https://burst.shopifycdn.com/photos/waves-crashing-on-beach.jpg?width=1200&format=pjpg&exif=0&iptc=0');
-	}
-	#section0 h1{
-		top: 50%;
-		transform: translateY(-50%);
-		position: relative;
-	}
-	#section2{
-		background-image: url('https://www.securityroundtable.org/wp-content/uploads/2018/07/AdobeStock_103287945.jpeg');
-		padding: 6% 0 0 0;
-	}
-	#section3{
-		background-image: url('https://www.securityroundtable.org/wp-content/uploads/2018/07/AdobeStock_103287945.jpeg');
-		padding: 6% 0 0 0;
-	}
-	#section3 h1{
-		color: #000;
-	}
-
-
-	/*Adding background for the slides
-	* --------------------------------------- */
-	#slide1{
-		background-image: url('https://iixfoundation.org/wp-content/uploads/2018/09/clean-white-polygon-backgrounds-8.jpg');
-		padding: 6% 0 0 0;
-	}
-	#slide2{
-		background-image: url('https://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-1.jpg');
-		padding: 6% 0 0 0;
-	}
-
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
+	
 	</style>
 
 	<!--[if IE]>
@@ -96,9 +34,19 @@
 
 <div id="fullpage">
   <div class="section " id="section0">
-	<img class="rounded shadow img-fluid profile" src="assets/img/SethRandell.jpg" width="400" height="400" alt="Seth Randell">
-	<h1>Seth Randell</h1>
-	<p>My name is Seth Randell and I am originally from Los Angeles, California. I moved to Atlanta shortly
+	<!-- <img class="rounded shadow img-fluid profile" src="assets/img/SethRandell.jpg" width="400" height="400" alt="Seth Randell"> -->
+	<!-- <h1>Seth Randell</h1> -->
+	<div class="container shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+                <div class="col-sm-1"></div>
+                <h2>About Me</h2>
+                <div class="row">
+                <div class="col-sm-1"></div>
+            <div class="col-lg-3">
+                <img class="rounded shadow img-fluid profile" src="assets/img/SethRandell.jpg" width="500" height="500" alt="Seth Randell">
+            </div>
+            <div class="col-lg-7">
+	<p id="text">My name is Seth Randell and I am originally from Los Angeles, California. I moved to Atlanta shortly
 		after my journey into IT began over 20 years ago. I started out working tech support for one of the
 		largest internet service providers. I moved my way up over the next 15 years to a Senior Systems
 		Administrator position. After I left I took my love for virtualization and found a home at a small
@@ -108,9 +56,22 @@
 		some ingesting projects that I will be documenting here. So stay tuned and check back to see what I
 		am up too.</p>
 </div>
+</div>
+</div>
+</div>
+</div>
 	<div class="section" id="section1">
-		<div class="slide" id="slide1"><h1>Portfolio</h1>
-		
+		<div class="slide" id="slide1">
+			<div id="portfolio">
+					<!-- <h1>Portfolio</h1> -->
+			<h5>Star Wars RPG</h5>
+			<a href="https://github.com/doingway2much/unit-4-game" target="_blank" class="btn btn-primary" role="button">GitHub</a>
+			<a href="https://doingway2much.github.io/unit-4-game/" target="_blank" class="btn btn-primary" role="button">Play Now</a>
+			<br>
+			<img class="rounded" src="assets/img/RPG.JPG"  alt="Seth Randell">
+			
+			<p>Take a look at a game that I came up with for week 4 of my Georgia Tech coding bootcamp. It's a simple game built with javascript and jquery.</p>
+		</div>
 		</div>
 		<div class="slide" id="slide2"><h1>Totally customizable</h1></div>
 	</div>
